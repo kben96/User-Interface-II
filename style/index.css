@@ -1,1 +1,111 @@
 /* Add CSS styling here */
+
+*{
+    border-sizing: border-box;
+    max-width:100%;
+    background:#Ffaedcd;
+    border:1px solid grey;
+    background:#ECECEC;
+    color: #293241;
+}
+
+*{
+    font-family:sans-serif;
+}
+
+.top{
+    color:#293241;
+    align-items:center;
+}
+
+.top .links{
+    display:flex;
+    justify-content:center;
+}
+
+h1, h2, .links {
+    text-align:center;
+}
+
+h1{
+    padding:2%;
+    background-size:16px 16px;
+    font-size:40px;
+}
+
+/* Links to home, about, and projects */
+a{
+    text-decoration:none;
+    border-radius: 10px;
+    padding: 10px;
+    width: 60px;
+    height: 15px;
+    color: white;
+    background-color: #5D001E;
+    justify-content: space-around;
+}
+
+/* Quick blurb about the page */
+p{
+    color:#293241;
+}
+
+.large-image{
+    height:400px;
+    overflow:hidden;
+}
+
+.large-image img{
+    width:100%;
+}
+    
+
+.project-images{
+    display:flex;
+    justify-content:space-evenly;
+    align-items:center;
+}
+
+.boxOne, .boxTwo, .boxThree, .boxFour{
+    margin:1%;
+
+}
+
+p {
+    text-align:center;
+    padding:1%;
+    align-items:center;
+    align-content:center;
+}
+
+footer{
+    display:flex;
+    justify-content: space-between;
+    background: #E3AFBC;
+}
+
+.links{
+    display:flex;
+    align-items: center;
+    margin:2%;
+}
+
+/*Media Queries - Phone*/
+@media(max-width: 500px){
+    *{
+        width: 100%;
+    }
+    nav{
+        flex-direction:colun;
+        justify-content:center;
+    }
+}
+/*End of Media Queries - Phone*/
+
+
+/*Media Queries - Tablet*/
+@media(max-width: 800px){
+#top div: 
+}
+
+/*End of Media Queries - Tablet*/
