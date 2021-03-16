@@ -1,8 +1,12 @@
 /* Add CSS styling here */
 
 *{
+    border-sizing: border-box;
     max-width:100%;
     background:#Ffaedcd;
+    border:1px solid grey;
+    background:#ECECEC;
+    color: #293241;
 }
 
 *{
@@ -24,9 +28,8 @@ h1, h2, .links {
 }
 
 h1{
-    color: #E5E5E5;
-    background:grey;
     padding:2%;
+    background-size:16px 16px;
     font-size:40px;
 }
 
@@ -34,11 +37,12 @@ h1{
 a{
     text-decoration:none;
     border-radius: 10px;
-    padding: 20px;
-    width: 75px;
-    height: 25px;
+    padding: 10px;
+    width: 60px;
+    height: 15px;
     color: white;
-    background-color: #293241;
+    background-color: #5D001E;
+    justify-content: space-around;
 }
 
 /* Quick blurb about the page */
@@ -77,7 +81,7 @@ p {
 footer{
     display:flex;
     justify-content: space-between;
-    background: #E5E5E5;
+    background: #E3AFBC;
 }
 
 .links{
@@ -85,3 +89,23 @@ footer{
     align-items: center;
     margin:2%;
 }
+
+/*Media Queries - Phone*/
+@media(max-width: 500px){
+    *{
+        width: 100%;
+    }
+    nav{
+        flex-direction:colun;
+        justify-content:center;
+    }
+}
+/*End of Media Queries - Phone*/
+
+
+/*Media Queries - Tablet*/
+@media(max-width: 800px){
+#top div: 
+}
+
+/*End of Media Queries - Tablet*/
